@@ -59,9 +59,14 @@
 }
 
 .btn:hover {
-    color: red;
+    color: blue;
     background: #FFF;
-    border: 1px dotted red;
+    border: 1px solid;
+}
+.btn1:hover{
+    color: #2C49FE;
+    background: #FFF;
+    border: 1px solid;
 }
 
 .mt-160 {
@@ -602,6 +607,12 @@ input {
 .mt-5{
     margin-top: 5px;
 }
+.mt-10-2{
+    margin-top: 10px;
+}
+.ml-15-2{
+    margin-left: 15px;
+}
 
 
 
@@ -781,7 +792,7 @@ input {
     .srv {
         font-size: 20px;
     }
-
+   
 
 
 }
@@ -846,7 +857,7 @@ input {
     .mt-10 {
         margin-top: 0;
     }
-
+    
     .mt-32 {
         margin-top: 171px !important;
     }
@@ -865,7 +876,7 @@ input {
     }
 
     .ml-18 {
-        margin-left: 0;
+        margin-left: 0px;
     }
 
     .position-absolute2 {
@@ -880,6 +891,9 @@ input {
 @media (min-width:1200px) {
     .mt-32 {
         margin-top: 30px !important;
+    }
+    .ml-10-2{
+        margin-left: 10px;
     }
 
     .position-absolute {
@@ -931,6 +945,7 @@ input {
         left: 80%;
         top: 82%;
     }
+  
 
 
 }
@@ -962,6 +977,10 @@ input {
         left: 84%;
         top: 83%;
     }
+    .para7 {
+        width: 474px;
+    }
+   
 
 
 
